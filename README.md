@@ -1,6 +1,6 @@
 # Speech_corpora_automatic_transcription_and_alignment
 
-This is a very basic pipeline to aid researchers with speech oral corpora common operations, like transcription and word/phoneme alignment; the aim is to offer an automatic approach.
+This is a very basic pipeline (published in Google Colab) to aid researchers with speech oral corpora common operations, like transcription and word/phoneme alignment; the aim is to offer an automatic approach.
 
 The used scripts are open source and are available at Github; so, all the credits must go to OpenAI (Radford, A., Kim, J. W., Xu, T., Brockman, G., McLeavey, C., & Sutskever, I., developers of Whisper), McAuliffe, M., Socolof, M., Mihuc, S., Wagner, M., Sonderegger, M. (developers of Montreal Forced Aligner) and Parisse, C., Etienne, C., & Liégeois, L. (developers of TEICORPO).
 
