@@ -105,15 +105,7 @@ python transcribe_diarize.py entrevista.wav --from-json --pause 0.4
 
 ---
 
-## 6. Alineación fonética con MFA
-
-Para obtener timestamps de palabras con precisión ~10 ms y un tier de phones, usa el script `mfa_realign.py` sobre los TextGrids ya generados. Requiere tener MFA instalado en un entorno conda.
-
-Consulta las instrucciones del script complementario: `INSTRUCCIONES_MFA.md`
-
----
-
-## 7. Notas
+## 6. Notas
 
 - Los archivos de salida se guardan **en la misma carpeta** que el audio, con el mismo nombre base.
 - En un Mac con chip M-series la transcripción usa el Neural Engine y es aproximadamente **10× más rápida que el tiempo real**.
