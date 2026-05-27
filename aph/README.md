@@ -4,11 +4,20 @@ Aplicación R/Shiny para el análisis prosódico tridimensional del habla siguie
 
 ---
 
+## Demo online
+
+**[▶ Abrir demo (GitHub Pages)](https://acabedo.github.io/scripts/aph/)**
+
+> **Nota sobre el tiempo de carga:** la demo se ejecuta mediante [Shinylive](https://shiny.posit.co/py/docs/shinylive.html) (R en WebAssembly, directamente en el navegador, sin servidor). La primera carga descarga el entorno de ejecución de R (~50 MB); puede tardar entre 30 y 90 segundos según la conexión. En local, la app arranca en menos de 3 segundos con `shiny::runApp("app.R")`.
+
+---
+
 ## Archivos
 
-| Archivo | Descripción |
+| Archivo / Carpeta | Descripción |
 |---|---|
 | `app.R` | Aplicación Shiny principal |
+| `docs/` | Demo exportada con Shinylive (GitHub Pages) |
 | `Extraccion_datos_v6.praat` | Script Praat para extraer F0, intensidad y tiempos desde TextGrids |
 | `Extraccion_datos_v5.praat` | Versión anterior del script de extracción |
 | `whisper_batch_align.praat` | Script Praat para segmentación con Silero VAD + transcripción Whisper + alineación fonémica |
