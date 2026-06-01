@@ -53,14 +53,14 @@ install.packages(c(
 setwd("ruta/a/etiquetador_oral")
 
 # Lanzar la aplicación
-shiny::runApp("etiquetador_alba.R")
+shiny::runApp("etiquetador.R")
 ```
 
 ### Organización de archivos
 
 ```
 etiquetador_oral/
-├── etiquetador_alba.R       # Código principal de la app
+├── etiquetador.R       # Código principal de la app
 ├── www/
 │   └── audios/              # Pares precargados (mismo nombre base)
 │       ├── entrevista1.mp3
