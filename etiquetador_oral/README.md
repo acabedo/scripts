@@ -1,4 +1,4 @@
-# Etiquetador de datos orales — Oralstats v1.0
+# Etiquetador de datos orales — v1.0
 
 Aplicación Shiny en R para la anotación lingüística y el análisis acústico de corpus orales. Permite cargar archivos de audio y transcripción, navegar segmento a segmento, calcular métricas prosódicas automáticamente y exportar las anotaciones en varios formatos.
 
